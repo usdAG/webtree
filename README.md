@@ -5,4 +5,10 @@ To achieve this it recursively parses the directory listing from the given base 
 
 It was created in the course of a project parsing leak pages of ransomware groups in the Tor network. It was therefore tested in combination with the `torsocks` utility. 
 
+## Usage
+
+`webtree.py <URL> <OUTFILE>`
+
+The script requires the target URL to the directory listing that should be parsed recursively as well as the path/ name to the output file.
+
 
